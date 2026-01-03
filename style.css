@@ -1,0 +1,121 @@
+/* <=========================================== Common ===================================> */
+header {
+    text-align: center;
+    margin-bottom: 0.1vh;
+}
+button {
+    padding: 0.5rem 0.5rem;
+    cursor: pointer;
+}
+nav {
+    text-align: end;
+    margin: 0%;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    margin: 0%;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #B2BCAA;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.box:disabled {
+    opacity: 0.9;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.reset {
+    font-family: 'Courier New', Courier, monospace;
+    height: 5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);   
+}
+.msg {
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4A5859; 
+    font-weight: bold;
+    text-align: center;
+}
+.hide {
+    visibility: hidden;
+    margin: 0%;
+}
+
+
+
+/* <========================================== Light Mode ===============================> */
+#body_light {
+    background-color: #F2F5EA;
+}
+#mode_light {
+    border-radius: 50%;
+    background-color: #EDF2F4;
+    border-color: #928779;
+    color: #3A445D;
+    font-size: 1.5rem;
+}
+#title_light {
+    color: #4A5859; 
+}
+.box_light {
+    background-color: #B2BCAA;
+    box-shadow: 0 0 1rem rgba(0,0,0, 0.2);
+}
+.reset_light {
+    box-shadow: 0 0 1rem rgba(0,0,0, 0.2);
+}
+.msg_light {
+    color: #4A5859; 
+}
+
+/* <====================================== Dark Mode =======================================>  */
+#body_dark {
+    background-color: #2C363F;
+}
+#mode_dark {
+    border-radius: 50%;
+    background-color: #6A706E;
+    color: #F4EBD9;
+    font-size: 1.5rem;
+}
+#title_dark {
+    color: #CCD2C6; 
+}
+.box_dark {
+    background-color: #EFEBCE;
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.4);
+}
+.reset_dark {
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.4);
+}
+.msg_dark {
+    color: #CCD2C6; 
+}
