@@ -8,7 +8,7 @@ This project is made with the help of HTML, CSS and JavaScript.
 2) Click on index.html to open on local port and play.
 
 ### 2) Direct Link
-Click on Github Pages deployed link: "" ,to directly access the game.
+Click on Github Pages deployed link: "https://rohit-kumar-0407.github.io/Tic-Tac-Toe-Game/" ,to directly access the game.
 
 ## Screenshots
 
