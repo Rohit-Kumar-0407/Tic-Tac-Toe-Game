@@ -1,8 +1,8 @@
-# **Tic-Tac-Toe-Game**📱
+# Tic-Tac-Toe-Game📱
 One of the most famous games of everyone's childhood, The Tic Tac Toe Game is now available online. 
 This project is made with the help of HTML, CSS and JavaScript.
 <hr>
-## **How To Play**
+## How To Play
 ### 1) Import Method:
 1) Import all the above files into local system using git or rar download.
 2) Click on index.html to open on local port and play.
@@ -10,7 +10,7 @@ This project is made with the help of HTML, CSS and JavaScript.
 ### 2) Direct Link
 Click on Github Pages deployed link: "https://rohit-kumar-0407.github.io/Tic-Tac-Toe-Game/" ,to directly access the game.
 <hr>
-## **Screenshots**
+## Screenshots 
 ### 1) Light Mode:<br>
 ![Light Mode](./assets/Project%20Screenshots/LightMOde.png)
 <br>
