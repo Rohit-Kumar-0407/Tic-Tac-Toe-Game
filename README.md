@@ -12,9 +12,9 @@ Click on Github Pages deployed link: "https://rohit-kumar-0407.github.io/Tic-Tac
 
 ## Screenshots
 
-[Light Mode](./assets/Project%20Screenshots/LightMOde.png)
-[Dark Mode](./assets/Project%20Screenshots/DarkMode.png)
-[Result Light](./assets/Project%20Screenshots/Result%20Light.png)
-[Result Dark](./assets/Project%20Screenshots/Result%20DArk.png)
+![Light Mode](./assets/Project%20Screenshots/LightMOde.png)
+![Dark Mode](./assets/Project%20Screenshots/DarkMode.png)
+![Result Light](./assets/Project%20Screenshots/Result%20Light.png)
+![Result Dark](./assets/Project%20Screenshots/Result%20DArk.png)
 
 For Project Demo, visit my LinkedIn Profile.
