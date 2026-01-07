@@ -11,16 +11,16 @@ This project is made with the help of HTML, CSS and JavaScript.
 Click on Github Pages deployed link: "https://rohit-kumar-0407.github.io/Tic-Tac-Toe-Game/" ,to directly access the game.
 <hr>
 ## **Screenshots**
-### 1) Light Mode:
+### 1) Light Mode:<br>
 ![Light Mode](./assets/Project%20Screenshots/LightMOde.png)
 <br>
-### 2) Dark Mode:
+### 2) Dark Mode:<br>
 ![Dark Mode](./assets/Project%20Screenshots/DarkMode.png)
 <br>
-### 3) Result Light:
+### 3) Result Light:<br>
 ![Result Light](./assets/Project%20Screenshots/Result%20Light.png)
 <br>
-### 4) Result Dark:
+### 4) Result Dark:<br>
 ![Result Dark](./assets/Project%20Screenshots/Result%20DArk.png)
 <br>
 <hr>
