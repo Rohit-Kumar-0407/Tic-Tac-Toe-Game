@@ -1,4 +1,8 @@
 /* <=========================================== Common ===================================> */
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
 header {
     text-align: center;
     margin-bottom: 0.1vh;
@@ -17,7 +21,7 @@ h1 {
     margin: 0%;
 }
 .container {
-    height: 70vh;
+    height: 67vh;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -68,7 +72,14 @@ footer {
     visibility: hidden;
     margin: 0%;
 }
-
+.mode_change {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
 
 
 /* <========================================== Light Mode ===============================> */
@@ -76,11 +87,11 @@ footer {
     background-color: #F2F5EA;
 }
 #mode_light {
-    border-radius: 50%;
+    
     background-color: #EDF2F4;
     border-color: #928779;
     color: #3A445D;
-    font-size: 1.5rem;
+    
 }
 #title_light {
     color: #4A5859; 
@@ -101,10 +112,8 @@ footer {
     background-color: #2C363F;
 }
 #mode_dark {
-    border-radius: 50%;
     background-color: #6A706E;
     color: #F4EBD9;
-    font-size: 1.5rem;
 }
 #title_dark {
     color: #CCD2C6; 
@@ -118,4 +127,68 @@ footer {
 }
 .msg_dark {
     color: #CCD2C6; 
+}
+
+/* =============================================== Media Queries ==================================================== */
+
+/* Mobile Users */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+        margin: 2rem 1rem 0.5rem 1rem;
+    }
+    .container {
+        height: 45vh;   
+    }
+    .game {
+        height: 82vmin;
+        width: 82vmin;
+    }
+    .box {
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 3.5rem;
+    }
+    .msg {
+        font-size: 1.15rem;
+    }
+    .mode_change {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+}
+
+/* Tablet Users */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+        margin: 2rem 1rem 0.5rem 1rem;
+    }
+    .container {
+        height: 45vh;   
+    }
+    .game {
+        height: 82vmin;
+        width: 82vmin;
+    }
+    .box {
+        height: 25vmin;
+        width: 25vmin;
+        font-size: 3.5rem;
+    }
+    .msg {
+        font-size: 1.15rem;
+    }
+    .mode_change {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        font-size: 2rem;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
 }

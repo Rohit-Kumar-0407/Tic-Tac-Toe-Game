@@ -15,6 +15,7 @@ function mode_change() {
             document.querySelector(".msg").classList.add("msg_dark");
             document.querySelector(".msg").classList.remove("msg_light");
         }
+        btn.innerHTML = '<i class="ri-moon-fill"></i>';
         //A NodeList does not have a classList property. Only individual elements do.
         mode = "dark";
     } else {
@@ -32,6 +33,7 @@ function mode_change() {
             document.querySelector(".msg").classList.add("msg_light");
             document.querySelector(".msg").classList.remove("msg_dark");
         }
+        btn.innerHTML = '<i class="ri-sun-line"></i>';
         mode = "light";
     }
     console.log(`Changing Mode To: ${mode}`);
